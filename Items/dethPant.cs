@@ -3,8 +3,8 @@ using Terraria.ModLoader;
 
 namespace dethzITEMz.Items.Armor
 {
-    [AutoloadEquip(EquipType.Body)]
-    public class dethSuit : ModItem
+    [AutoloadEquip(EquipType.Legs)]
+    public class dethPant : ModItem
     {
         public override void SetStaticDefaults()
         {
