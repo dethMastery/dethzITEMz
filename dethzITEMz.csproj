@@ -38,6 +38,9 @@
     <Compile Include="Items\dethSuit.cs" />
     <Compile Include="Items\dethHelm.cs" />
     <Compile Include="Items\dethPant.cs" />
+    <Compile Include="Items\dethBench.cs" />
+    <Compile Include="Items\hide\dethBench.cs" />
+    <Compile Include="Items\tiles\dethBench.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
@@ -60,6 +63,10 @@
     <Reference Include="Terraria">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Items\hide\" />
+    <Folder Include="Items\Tiles\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
