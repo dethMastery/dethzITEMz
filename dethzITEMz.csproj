@@ -39,8 +39,7 @@
     <Compile Include="Items\dethHelm.cs" />
     <Compile Include="Items\dethPant.cs" />
     <Compile Include="Items\dethBench.cs" />
-    <Compile Include="Items\hide\dethBench.cs" />
-    <Compile Include="Items\tiles\dethBench.cs" />
+    <Compile Include="Tiles\dethBenchP.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
@@ -65,8 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Items\hide\" />
-    <Folder Include="Items\Tiles\" />
+    <Folder Include="Tiles\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

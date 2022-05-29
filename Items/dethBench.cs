@@ -1,35 +1,29 @@
-using Microsoft.Xna.Framework;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.ObjectData;
 
-namespace dethzITEMz.Tiles
+namespace dethzITEMz.Items
 {
-	public class dethBench : ModTile
+	public class dethBench : ModItem
 	{
-		//public override void SetStaticDefaults()
-		//{
-		//	DisplayName.SetDefault("deth's Working bench");
-		//	Tooltip.SetDefault("Just my starter workbench");
-		//}
+		public override void SetStaticDefaults()
+		{
+			DisplayName.SetDefault("deth's Working bench");
+			Tooltip.SetDefault("Just my starter workbench");
+		}
 		public override void SetDefaults()
 		{
 			item.width = 18;
 			item.height = 18;
-			item.useTime = 3;
+			item.useTime = 14;
 			item.rare = -12;
 			item.useAnimation = 17;
+			item.useTurn = true;
+			item.autoReuse = true;
+			item.useStyle = 1;
 
-			item.createTile = mod.TileType("dethBench");
+			item.createTile = mod.TileType("dethBenchP");
 			item.consumable = true;
-
-			TileObjectData.newTile.CopyFrom(TileObjectData.Style4x2);
-			TileObjectData.newTile.CoordinateHeights = new[] { 16, 18 };
-			TileObjectData.addTile(Type);
-
-			DisplayName.SetDefault("deth's Working bench");
-			Tooltip.SetDefault("Just my starter workbench");
-        }
+		}
 
 		public override void AddRecipes()
 		{
