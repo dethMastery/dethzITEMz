@@ -25,7 +25,7 @@ namespace dethzITEMz.Items.Armor
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.DirtBlock, 1);
-             recipe.AddTile(TileID.Anvil);
+             recipe.AddTile(TileID.Anvils);
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
