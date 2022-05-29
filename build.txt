@@ -1,0 +1,3 @@
+author = dethz
+version = 0.1
+displayName = deth's Item-Z
