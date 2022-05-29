@@ -8,7 +8,7 @@ namespace dethzITEMz.Items
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("dethSword");
-			Tooltip.SetDefault("Just my starter sword");
+			Tooltip.SetDefault("Just my starter sword~ uwu~");
 		}
 		public override void SetDefaults()
 		{
