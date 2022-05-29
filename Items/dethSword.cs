@@ -8,7 +8,7 @@ namespace dethzITEMz.Items
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("dethSword");
-			Tooltip.SetDefault("This is a modded sword.");
+			Tooltip.SetDefault("Just my starter sword");
 		}
 		public override void SetDefaults()
 		{
@@ -16,10 +16,10 @@ namespace dethzITEMz.Items
 			item.melee = true;
 			item.width = 40;
 			item.height = 900;
-			item.useTime = 20;
+			item.useTime = 3;
 			item.useAnimation = 20;
 			item.useStyle = 1;
-			item.knockBack = 6;
+			item.knockBack = 60;
 			item.value = 10000;
 			item.rare = 2;
 			item.UseSound = SoundID.Item1;
