@@ -24,8 +24,8 @@ namespace dethzITEMz.Items.Armor
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.DirtBlock, 1);
-            recipe.AddTile(16);
+            recipe.AddIngredient(mod, "dethGemT1", 1);
+            recipe.AddTile(mod.TileType("dethBenchP"));
             recipe.SetResult(this);
             recipe.AddRecipe();
         }

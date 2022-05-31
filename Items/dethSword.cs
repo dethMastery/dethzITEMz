@@ -29,9 +29,9 @@ namespace dethzITEMz.Items
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.DirtBlock, 1);
-			// recipe.AddTile(TileID.WorkBenches);
-			recipe.SetResult(this);
+			recipe.AddIngredient(mod, "dethGemT1", 10);
+			recipe.AddTile(mod.TileType("dethBenchP"));
+            recipe.SetResult(this);
 			recipe.AddRecipe();
 		}
 	}
