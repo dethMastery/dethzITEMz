@@ -24,9 +24,9 @@ namespace dethzITEMz.Items
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.DirtBlock, 1);
-			recipe.AddIngredient(ItemID.StoneBlock, 1);
-			recipe.AddIngredient(ItemID.Wood, 1);
+			recipe.AddIngredient(ItemID.DirtBlock, 3);
+			recipe.AddIngredient(ItemID.StoneBlock, 3);
+			recipe.AddIngredient(ItemID.Wood, 3);
 			recipe.anyWood = true;
 			recipe.AddTile(mod, "dethBenchP");
 			recipe.SetResult(this, 3);
