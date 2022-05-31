@@ -1,17 +1,20 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Tiles/dethBench.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Items/dethBench.cs">
     <Files>
-      <File FileName="Items/dethBench.cs" Line="9" Column="4" />
-      <File FileName="Items/tiles/dethBench.cs" Line="17" Column="1" />
+      <File FileName="Tiles/dethBench.cs" Line="31" Column="45" />
+      <File FileName="Items/dethBench.cs" Line="20" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="dethzITEMz" expanded="True">
             <Node name="dethzITEMz" expanded="True">
-              <Node name="Items" expanded="True">
-                <Node name="tiles" expanded="True" selected="True" />
-              </Node>
+              <Node name="Items" expanded="True" />
+              <Node name="Tiles" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -21,10 +24,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>
