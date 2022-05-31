@@ -35,9 +35,9 @@
   <ItemGroup>
     <Compile Include="Items\dethSword.cs" />
     <Compile Include="dethzITEMz.cs" />
-    <Compile Include="Items\dethSuit.cs" />
-    <Compile Include="Items\dethHelm.cs" />
-    <Compile Include="Items\dethPant.cs" />
+    <Compile Include="Items\dethVanSuit.cs" />
+    <Compile Include="Items\dethVanHelm.cs" />
+    <Compile Include="Items\dethVanPant.cs" />
     <Compile Include="Items\dethBench.cs" />
     <Compile Include="Tiles\dethBenchP.cs" />
     <Compile Include="Items\dethGemT1.cs" />

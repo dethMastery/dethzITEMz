@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 namespace dethzITEMz.Items.Armor
 {
     [AutoloadEquip(EquipType.Legs)]
-    public class dethPant : ModItem
+    public class dethVanPant : ModItem
     {
         public override void SetStaticDefaults()
         {
