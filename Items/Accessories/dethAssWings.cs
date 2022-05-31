@@ -8,12 +8,6 @@ namespace dethzITEMz.Items.Accessories
 	[AutoloadEquip(EquipType.Wings)]
 	public class dethAssWings : ModItem
 	{
-		//public override bool Autoload(ref string name, ref string texture, IList<EquipType> equips)
-		//{
-		//	equips.Add(EquipType.Wings);
-		//	return true;
-		//}
-
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("deth's fucking wing");
@@ -35,7 +29,6 @@ namespace dethzITEMz.Items.Accessories
 			player.wingTimeMax = 1200; //wings Height
 		}
 
-		// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
