@@ -27,8 +27,8 @@ namespace dethzITEMz.Tiles
             TileObjectData.addTile(Type);
 
             //AddMapEntry(new Color(0, 0, 0), "dethBench");
-            adjTiles = new int[] { TileID.WorkBenches };
-            drop = mod.ItemType("dethBench");
+            adjTiles = new int[] { 16 };
+            //drop = mod.ItemType("dethBench");
             disableSmartCursor = true;
         }
 
